@@ -7,6 +7,3 @@ if numero >= 10 and numero <= 50:
         print("perdiste")
 else:
     print("El número está fuera del rango permitido.")
-# Si el usuario ingresa -10:
-# Como -10 no está en el rango de 10 a 50, el programa lo considera fuera de rango,
-# por lo tanto muestra: "El número está fuera del rango permitido." y "Perdiste".
