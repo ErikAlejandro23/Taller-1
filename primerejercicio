@@ -1,13 +1,12 @@
 numero = int(input("Ingrese un número entre 10 y 50: "))
 
-if numero < 10 or numero > 50:
-    print("El número está fuera del rango permitido.")
-    print("Perdiste")
-elif numero == 30:
-    print("Ganaste un premio")
+if numero >= 10 and numero <= 50:
+    if numero == 30:
+        print("¡Felicidades! Has ganado.")
+    else:
+        print("perdiste")
 else:
-    print("Perdiste")
-
+    print("El número está fuera del rango permitido.")
 # Si el usuario ingresa -10:
 # Como -10 no está en el rango de 10 a 50, el programa lo considera fuera de rango,
 # por lo tanto muestra: "El número está fuera del rango permitido." y "Perdiste".
