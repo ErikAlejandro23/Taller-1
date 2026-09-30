@@ -1,0 +1,97 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="fj4wJWT9vwnmvdiQFJ4G">
+    <mxGraphModel dx="1022" dy="660" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="iaOS--0TyACNMt8gEVuW-2" edge="1" parent="1" source="iaOS--0TyACNMt8gEVuW-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="iaOS--0TyACNMt8gEVuW-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iaOS--0TyACNMt8gEVuW-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="INICIO&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="320" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iaOS--0TyACNMt8gEVuW-4" edge="1" parent="1" source="iaOS--0TyACNMt8gEVuW-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iaOS--0TyACNMt8gEVuW-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="INSERTAR UN AÑO" vertex="1">
+          <mxGeometry height="60" width="120" x="320" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="iaOS--0TyACNMt8gEVuW-6" edge="1" parent="1" source="iaOS--0TyACNMt8gEVuW-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="iaOS--0TyACNMt8gEVuW-7" value="SI">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iaOS--0TyACNMt8gEVuW-9" edge="1" parent="1" source="iaOS--0TyACNMt8gEVuW-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="iaOS--0TyACNMt8gEVuW-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iaOS--0TyACNMt8gEVuW-11" connectable="0" parent="iaOS--0TyACNMt8gEVuW-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="NO" vertex="1">
+          <mxGeometry relative="1" x="-0.08" y="3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iaOS--0TyACNMt8gEVuW-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="¿Año % 400 == 0?&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="320" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="iaOS--0TyACNMt8gEVuW-17" edge="1" parent="1" source="iaOS--0TyACNMt8gEVuW-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iaOS--0TyACNMt8gEVuW-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="ES BISIESTO" vertex="1">
+          <mxGeometry height="60" width="120" x="90" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="iaOS--0TyACNMt8gEVuW-12" edge="1" parent="1" source="iaOS--0TyACNMt8gEVuW-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="iaOS--0TyACNMt8gEVuW-13" value="SI">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iaOS--0TyACNMt8gEVuW-14" edge="1" parent="1" source="iaOS--0TyACNMt8gEVuW-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iaOS--0TyACNMt8gEVuW-15" connectable="0" parent="iaOS--0TyACNMt8gEVuW-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="NO" vertex="1">
+          <mxGeometry relative="1" x="-0.0262" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iaOS--0TyACNMt8gEVuW-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="¿Año % 4 == 0 Y año % 100 != 0?&amp;nbsp; &amp;nbsp; &amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="550" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="iaOS--0TyACNMt8gEVuW-18" edge="1" parent="1" source="iaOS--0TyACNMt8gEVuW-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="470" y="810" />
+              <mxPoint x="380" y="810" />
+            </Array>
+            <mxPoint x="380" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iaOS--0TyACNMt8gEVuW-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="ES BISIESTO" vertex="1">
+          <mxGeometry height="60" width="120" x="410" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="iaOS--0TyACNMt8gEVuW-19" edge="1" parent="1" source="iaOS--0TyACNMt8gEVuW-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="750" y="860" />
+              <mxPoint x="380" y="860" />
+            </Array>
+            <mxPoint x="380" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iaOS--0TyACNMt8gEVuW-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="NO ES BISIESTO" vertex="1">
+          <mxGeometry height="60" width="120" x="690" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="iaOS--0TyACNMt8gEVuW-20" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="FIN&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="320" y="920" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
